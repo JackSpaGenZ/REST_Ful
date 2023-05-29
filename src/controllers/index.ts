@@ -16,7 +16,7 @@ interface Post {
 // getAllPost include 3 parameter are req(Request), res(Response), next (NextFunction)
 const getAllPosts = async (req:Request, res:Response, next:NextFunction) => {
     // create a var result type AxiosResponse to return data form json file 
-    let result : AxiosResponse = await axios.get('https://quilted-glen-zenobia.glitch.me/posts.json')
+    let result : AxiosResponse = await axios.get('http://localhost:3000')
     // let result : AxiosResponse = await axios.get('https://jsonplaceholder.typicode.com/posts')
     // to return data we create a tuple with type Post ( have 5 attribute ) 
     let posts : [Post] = result.data;

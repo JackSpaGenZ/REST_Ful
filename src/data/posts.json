@@ -1,17 +1,17 @@
-[
-    {
-        "id" : 1,
-        "title" : "first post",
-        "content" : " a ",
-        "author" : "JackieTruong",
-        "authorId" : "21020300"
+    [
+        {
+            "id" : 1,
+            "title" : "first post",
+            "content" : " a ",
+            "author" : "JackieTruong",
+            "authorId" : "21020300"
 
-    },
-    {
-        "id" : 2,
-        "title" : "second post",
-        "content" : " b ",
-        "author" : "JackieChan",
-        "authorId" : "21020300"
-    }
-]
+        },
+        {
+            "id" : 2,
+            "title" : "second post",
+            "content" : " b ",
+            "author" : "JackieChan",
+            "authorId" : "21020300"
+        }
+    ]
